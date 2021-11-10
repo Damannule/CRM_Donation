@@ -1,0 +1,27 @@
+// MongoDB Playground
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+const database = 'LCC';
+const collection = 'user';
+
+// Create a new database.
+use(database);
+
+
+// The prototype form to create a collection:
+db.createCollection( collection,
+  {
+    nom: <string>,
+    prenom: <string>,
+    email: <string>,
+    motdepasse: <string>,
+    telephone: <string>,
+    rue: <string>,
+    codePostal: <string>,
+    ville: <string>,
+    montant: <double>,
+    dateDon: <date>,
+    newsletter: <boolean>,
+    actif: <boolean>,
+  }
+)

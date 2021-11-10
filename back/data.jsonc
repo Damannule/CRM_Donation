@@ -1,0 +1,16 @@
+[
+   {
+      "id": "4564564456",
+      "type": "Partculier",
+      "nom": "philippe",
+      "rue": "rue de la mairie",
+      "ville": "Nantes"
+   },
+   {
+      "id": "4564564456",
+      "type": "Pro",
+      "RaisonSociale": "SARL Ben",
+      "rue": "rue de la mairie",
+      "ville": "Nantes"
+   }
+]
